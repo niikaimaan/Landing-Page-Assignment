@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin:0;
     padding:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
@@ -22,6 +23,7 @@ body{
 .header > h1{
     justify-content: center;
     align-items: center ;
+    font-size: 24px;
 }
 
 ul.links{
@@ -35,6 +37,7 @@ ul.links{
 
 .links > a{
     color:#e5e7eb;
+    font-size: 18px;
 }
 
 .header-2{
@@ -43,5 +46,43 @@ ul.links{
     padding-left: 10px;
     padding-right:10px;
 }
+
+.container-1 > h2{
+    text-align: center;
+}
+
+.container-1 > .images{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.container-1>.images>div>img{
+    max-width: 200px ;
+    height:auto;
+}
+
+.quote{
+    text-align: center;
+    background-color: #e5e7eb;
+    font-style: italic;
+}
+
+.quote > p.quote-bold{
+    font-weight:700;
+    font-style: normal;
+}
+
+.button{
+    background-color: #3882f6;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:30px;
+    padding:15px;
+    border-radius: 25px;
+}
+
+
+
 
 
