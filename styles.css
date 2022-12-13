@@ -135,5 +135,17 @@ ul.links{
 }
 
 
+button{
+    color:#F9faf8;
+    background-color:transparent;
+    border: 3px solid #F9faf8;
+    border-radius: 15px;
+    min-width: 120px;
+    min-height:40px;
+    font-size:16px;
+    font-weight: 700;
+}
 
-
+.header-2>.left>button{
+    background-color: #3882f6;
+}
