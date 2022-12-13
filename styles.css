@@ -1,0 +1,13 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color: #1f2937;
+    margin:0;
+    padding:0;
+    color:#F9faf8;
+}
