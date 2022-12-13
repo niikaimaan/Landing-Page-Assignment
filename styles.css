@@ -37,3 +37,11 @@ ul.links{
     color:#e5e7eb;
 }
 
+.header-2{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+
