@@ -1,11 +1,10 @@
-html,body{
+body{
     display:flex;
     flex-direction: column;
     margin:0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
-    height:100%;
-   
+    height:100%;  
 }
 
 .header{
@@ -19,8 +18,9 @@ html,body{
 .header > .header-1{
     display:flex;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right:10px;
+    padding-left: 100px;
+    padding-right:100px;
+    padding-bottom: 40px;
 }
 
 .header > h1{
@@ -46,8 +46,17 @@ ul.links{
 .header-2{
     display:flex;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right:10px;
+    padding-left: 100px;
+    padding-right:100px;
+    padding-bottom:40px;
+}
+
+.header-2 > img{
+    width: 500px ;
+    height:300px;
+    border: 3px solid #3882f6;
+    border-radius: 25px;
+    
 }
 
 .container-1 > h2{
@@ -57,11 +66,16 @@ ul.links{
 .container-1 > .images{
     display:flex;
     justify-content: space-evenly;
+    margin:10px auto;
+    flex-wrap: wrap;
 }
 
 .container-1>.images>div>img{
-    max-width: 200px ;
+    width: 200px ;
     height:auto;
+    border: 3px solid #3882f6;
+    border-radius: 25px;
+    
 }
 
 .quote{
@@ -75,14 +89,21 @@ ul.links{
     font-style: normal;
 }
 
+.button-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+}
+
 .button{
     background-color: #3882f6;
-    display:flex;
+    border-radius: 25px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:30px;
-    padding:15px;
-    border-radius: 25px;
+    gap:40px;
+    padding:20px;
 }
 
 .footer{
